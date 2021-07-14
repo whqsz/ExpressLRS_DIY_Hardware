@@ -1,0 +1,26 @@
+RC8卡刷固件 手动风扇管理
+
+1：首先你必须通过STLINK刷写你的高频头，使高频头升级到RC8固件，这时你就拥有了BOOTLOADER引导程序。
+2：完成第一步你才能进入下一步。
+3：将firmware RC8 M FAN.elrs文件复制到遥控器SD卡中，记住你放在哪里了。
+4：进入遥控器，进行SD卡管理，找到firmware RC8 M FAN.elrs文件，长按ENT键，点击刷写EXT外置高频头。
+5：完成刷写。
+6：将ELRS M FAN.lua放到遥控器中，TOOLS文件夹。
+7：打开ELRS M FAN.lua，这时会多一个FAN选项。手动管理风扇的开关吧！
+8：下载的文件是不含密码的，如需自定义密码，请通过ExpressLRS-1.0.0-RC8-FAN-SWITCH文件库自行生成固件。
+
+注意：ELRS M FAN.lua只适用用firmware RC8 M FAN.elrs文件的高频头固件，不能混用！！！！
+
+
+自定义设置风扇开启（所有固件版本通用）
+
+进固件数据包
+src-lib-POWERMGNT文件夹
+找到POWERMGNT.CPP文件，右键-编辑
+CTR+F查找，输入digitalwrite，点击查找，
+将PWR_250mW修改为PWR_50mW或者你需要的功率数字即可
+左上角点击保存。
+
+再根据之前的离线数据库生成固件，通过WIFI对高频头进行刷写。
+
+
