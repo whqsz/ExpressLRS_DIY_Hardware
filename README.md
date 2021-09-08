@@ -3,8 +3,6 @@
 
 开源固件访问http://github.com/ExpressLRS/ExpressLRS
 
-`<addr>`
-
 接收编译固件名
 
 [env:DIY_900_RX_ESP8285_SX127x_via_UART]
