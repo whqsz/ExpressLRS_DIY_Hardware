@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: E:\电子线路设计\电路PCB\ExpressLRS\ESP8285_915_V1\ESP8285.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=4.72
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.09
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.30
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

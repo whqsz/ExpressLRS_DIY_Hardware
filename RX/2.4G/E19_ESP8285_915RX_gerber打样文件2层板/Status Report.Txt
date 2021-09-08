@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [MAIN.PrjPcb]
+   Generated File[ESP8285.TXT]
+   Generated File[ESP8285.LDP]
+   Generated File[ESP8285.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:12:43 On 2021/9/8
