@@ -5,7 +5,7 @@
 
 [env:DIY_900_RX_ESP8285_SX127x_via_UART]
 
-915M接收板子尺寸15mm*16mm*4.5mm厚
+915M接收板子尺寸15mmX16mmX4.5mm厚
 
 ![view](https://github.com/whqsz/ExpressLRS_E19_ESP32_TX/blob/main/RX-2G4-915M/915M/915_view.png?raw=true "elrs view")
 
