@@ -20,6 +20,6 @@
 
 ![view](https://github.com/whqsz/ExpressLRS_E19_ESP32_TX/blob/main/link/edit2.png?raw=true "elrs view")
 
- 友飞自制实物
+ 飞友自制实物
  
 ![view](https://github.com/whqsz/ExpressLRS_E19_ESP32_TX/blob/main/link/flyapple.jpg "elrs view")
