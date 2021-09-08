@@ -1,7 +1,6 @@
 # DIY ExpressLRS E19 ESP32 TX RX
-[GitHub]
 ![view](https://github.com/ExpressLRS/ExpressLRS-Hardware/raw/master/img/banner.png?raw=true "elrs view")
-(http://github.com/ExpressLRS/ExpressLRS)
+http://github.com/ExpressLRS/ExpressLRS
 
 接收编译固件名
 
