@@ -2,7 +2,7 @@
 ![view](https://github.com/ExpressLRS/ExpressLRS-Hardware/raw/master/img/banner.png?raw=true "elrs view")
 
 开源固件访问http://github.com/ExpressLRS/ExpressLRS
-
+----------------------------------------------------------
 接收编译固件名
 
 [env:DIY_900_RX_ESP8285_SX127x_via_UART]
