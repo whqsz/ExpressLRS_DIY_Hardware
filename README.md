@@ -10,7 +10,7 @@
 
 915M接收板子尺寸15mm×16mm×4.5mm厚
 
-![view](https://github.com/whqsz/ExpressLRS_E19_ESP32_TX/link/elrs915_rx?raw=true "elrs view")
+![view](https://github.com/whqsz/ExpressLRS_E19_ESP32_TX/blob/main/link/elrs915_rx.jpg?raw=true "elrs view")
 
 发射机
 ----------------------------------------------------------
