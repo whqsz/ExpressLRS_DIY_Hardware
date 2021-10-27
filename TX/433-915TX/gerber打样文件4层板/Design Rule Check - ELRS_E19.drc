@@ -1,0 +1,58 @@
+Protel Design System Design Rule Check
+PCB File : E:\电子线路设计\电路PCB\ExpressLRS\E19_TX\ExpressLRS_E19_915M - HM - 1.1\ELRS_E19.PcbDoc
+Date     : 2021/10/23
+Time     : 14:14:17
+
+Processing Rule : Clearance Constraint (Gap=0.16mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.12mm) (All),(InComponent('U1','ANT1'))
+   Violation between Clearance Constraint: (0.049mm < 0.12mm) Between Region (0 hole(s)) Top Layer And Track (0.25mm,18.227mm)(3.05mm,18.227mm) on Keep-Out Layer 
+   Violation between Clearance Constraint: (0.075mm < 0.12mm) Between Region (0 hole(s)) Top Layer And Track (0.25mm,2.107mm)(0.25mm,18.227mm) on Keep-Out Layer 
+   Violation between Clearance Constraint: (0.049mm < 0.12mm) Between Region (0 hole(s)) Top Layer And Track (3.05mm,18.227mm)(3.05mm,27.527mm) on Keep-Out Layer 
+Rule Violations :3
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(InNamedPolygon(''))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (All),(InNet('NetANT1_1'))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.18mm) (Max=3mm) (Preferred=0.18mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.4mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Arc (5.17mm,9.312mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Waived Violations : 0
+Time Elapsed        : 00:00:00

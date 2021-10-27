@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCB_Project.PrjPcb]
+   Generated File[ELRS_E19.TXT]
+   Generated File[ELRS_E19.LDP]
+   Generated File[ELRS_E19.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 19:58:07 On 2021/10/27
