@@ -2,8 +2,99 @@
 FileName = ELRS_E19.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : ELRS_E19.GTL
+Generating : Mechanical 15
+      File : ELRS_E19.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D17
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : ELRS_E19.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : ELRS_E19.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : ELRS_E19.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D72
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : ELRS_E19.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : ELRS_E19.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D66
+    D68
+    D69
+    D70
+    D101
+    D102
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : ELRS_E19.GTS
+
+    Adding Layer      : Top Solder
 
     Adding Layer      : Top Layer
 
@@ -11,9 +102,48 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D20
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : ELRS_E19.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D21
     D22
     D23
@@ -37,111 +167,6 @@ Used DCodes :
     D41
     D42
     D43
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-*************************************************************
-
-*************************************************************
-Generating : Power Layer
-      File : ELRS_E19.GP2
-
-    Adding Layer      : Power Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : ELRS_E19.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D20
-    D43
-    D76
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D97
-    D98
-    D99
-    D100
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : ELRS_E19.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D43
-    D84
-    D85
-    D86
-    D87
-    D97
-    D98
-*************************************************************
-
-*************************************************************
-Generating : GND Layer
-      File : ELRS_E19.GP1
-
-    Adding Layer      : GND Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D71
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
 *************************************************************
 
 *************************************************************
@@ -205,33 +230,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : ELRS_E19.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D72
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : ELRS_E19.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : ELRS_E19.GBP
-
-    Adding Layer      : Bottom Paste
+Generating : Bottom Pad Master
+      File : ELRS_E19.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -239,15 +239,18 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+    D43
+    D84
+    D85
+    D86
+    D87
     D97
     D98
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : ELRS_E19.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Layer
+      File : ELRS_E19.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -255,32 +258,66 @@ Generating : Bottom Solder
 
 
 Used DCodes :
+    D10
+    D20
     D43
-    D66
-    D67
-    D68
-    D69
-    D70
-    D101
-    D102
+    D76
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D97
+    D98
+    D99
+    D100
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 13
-      File : ELRS_E19.GM13
+Generating : Power Layer
+      File : ELRS_E19.GP2
 
-    Adding Layer      : Mechanical 13
+    Adding Layer      : Power Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D103
+    D10
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : ELRS_E19.GTS
+Generating : GND Layer
+      File : ELRS_E19.GP1
 
-    Adding Layer      : Top Solder
+    Adding Layer      : GND Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D71
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : ELRS_E19.GTL
 
     Adding Layer      : Top Layer
 
@@ -288,66 +325,9 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 15
-      File : ELRS_E19.GM15
-
-    Adding Layer      : Mechanical 15
-
-
-Used DCodes :
-    D17
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : ELRS_E19.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
+    D10
+    D11
+    D20
     D21
     D22
     D23
@@ -371,5 +351,24 @@ Used DCodes :
     D41
     D42
     D43
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
 *************************************************************
 

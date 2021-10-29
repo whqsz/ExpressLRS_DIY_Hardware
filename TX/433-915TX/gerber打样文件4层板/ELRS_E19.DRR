@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ELRS_E19.PcbDoc   2021/10/29  13:24:45
+NCDrill File Report For: ELRS_E19.PcbDoc   2021/10/29  14:59:59
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,13 +7,13 @@ ASCII RoundHoles File : ELRS_E19.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             367       PTH        0.00mm (0.00inch)
-T2      0.4mm (16mil)                                             Round             45        PTH        0.00mm (0.00inch)
-T3      0.5mm (20mil)                                             Round             2         PTH        0.00mm (0.00inch)
-T4      0.6mm (24mil)                                             Round             2         PTH        0.00mm (0.00inch)
-T5      0.762mm (30mil)                                           Round             5         PTH        0.00mm (0.00inch)
-T6      1.5mm (59mil)                                             Round             5         PTH        0.00mm (0.00inch)
+T1      0.3mm (12mil)                                             Round             366       PTH        584.06mm (22.99inch)
+T2      0.4mm (16mil)                                             Round             45        PTH        142.90mm (5.63inch)
+T3      0.5mm (20mil)                                             Round             2         PTH        1.25mm (0.05inch)
+T4      0.6mm (24mil)                                             Round             2         PTH        1.25mm (0.05inch)
+T5      0.762mm (30mil)                                           Round             5         PTH        10.16mm (0.40inch)
+T6      1.5mm (59mil)                                             Round             5         PTH        10.16mm (0.40inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              426
+Totals                                                                              425
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00
