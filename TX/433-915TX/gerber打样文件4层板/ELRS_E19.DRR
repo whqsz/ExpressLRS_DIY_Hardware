@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ELRS_E19.PcbDoc   2021/10/27  19:58:06
+NCDrill File Report For: ELRS_E19.PcbDoc   2021/10/29  13:24:45
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,13 +7,13 @@ ASCII RoundHoles File : ELRS_E19.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             365       PTH        0.00mm (0.00inch)
+T1      0.3mm (12mil)                                             Round             367       PTH        0.00mm (0.00inch)
 T2      0.4mm (16mil)                                             Round             45        PTH        0.00mm (0.00inch)
 T3      0.5mm (20mil)                                             Round             2         PTH        0.00mm (0.00inch)
 T4      0.6mm (24mil)                                             Round             2         PTH        0.00mm (0.00inch)
 T5      0.762mm (30mil)                                           Round             5         PTH        0.00mm (0.00inch)
 T6      1.5mm (59mil)                                             Round             5         PTH        0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              424
+Totals                                                                              426
 
 Total Processing Time (hh:mm:ss) : 00:00:01
