@@ -14,9 +14,14 @@ PWM6	--
 -------------------------------------------------------------------------------------------------------------------------
 ExpressLRS 2.0固件添加收发控制定义：
 工程文件路径为（ExpressLRS-2.0.0-RC1\src\include\target\DIY_900_RX_PWMP.h）
-文本编辑DIY_900_RX_PWMP.h文件，文本结尾追加两行定义：
+文本编辑DIY_900_RX_PWMP.h文件
 
-#define GPIO_PIN_RX_ENABLE      7
-#define GPIO_PIN_TX_ENABLE      6
+PWM输出去掉IO10口：
+#if defined(DEBUG_LOG)
+#define GPIO_PIN_PWM_OUTPUTS    {0, 5, 9}
+#else
+#define GPIO_PIN_PWM_OUTPUTS    {0, 1, 3, 5, 9}	//去掉后面的“,10”ESP8285端口紧张
+#endif
 
-
+文本结尾追加一行定义：
+#define GPIO_PIN_RX_ENABLE      10
